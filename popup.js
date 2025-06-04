@@ -26,9 +26,9 @@ document.getElementById('pushBtn').addEventListener('click', async () => {
   }
   
   async function pushToGitHub(problemData) {
-    const token = "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN";
-    const username = "YOUR_GITHUB_USERNAME";
-    const repo = "YOUR_REPOSITORY_NAME";
+    const token = "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";
+    const username = "dya8";
+    const repo = "geekforgeeks";
   
     const filePath = `geeksforgeeks/${problemData.title.replace(/\s+/g, "_")}.md`;
     const content = btoa(`# ${problemData.title}\n\n${problemData.content}`);
