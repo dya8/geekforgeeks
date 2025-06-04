@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "GFG to GitHub Pusher",
+    "version": "1.0",
+    "description": "Push your solved GeeksforGeeks problems to GitHub.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "host_permissions": ["https://www.geeksforgeeks.org/*"]
+  }
+  
